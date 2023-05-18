@@ -1,4 +1,5 @@
 # Ignore all
+MH_01_easy/
 *
 
 # Unignore all with extensions
@@ -91,3 +92,4 @@ my_settings.txt
 borrar/*
 
 */ExecMean.txt
+
