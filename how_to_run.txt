@@ -1,0 +1,25 @@
+1. first download all the dependencies
+	- eigen (through sudo, lib something)
+	- pangolin (from source and build it using cmake)
+	- realsense (from source and build it)
+	- boost library also (some errors occured during building ORB-SLAM3)
+
+2. download the EUROC dataset
+	- downloaded the MH01 easy dataset (i have chnaged the path to make a folder for MH01: for euroc_examples.sh)	
+
+3. download euroc_examples.sh
+	- from another git forked repo
+	- put in the root
+
+4. run example for euroc dataset
+	- run ./euroc_examples.sh
+	- edit it to run for the MH01 only otherwise the results are not displayed
+	- a window will appear showing the map as it gets created
+	- find the output screenshot stored as orbslam3_euroc_output.png
+	
+5. move the folders for the dependencies outside
+	- move the folders pangolin, boost_1_76_0 and librealsense outside of the ORB-SLAM3 folder
+
+
+
+
